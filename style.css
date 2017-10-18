@@ -1,0 +1,262 @@
+body {
+font-family: 'Roboto', sans-serif;
+background-image: url(img/pinterest3.jpg);
+}
+img {
+	max-width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-header__top-line {
+	background: #202020;
+	padding: 0 20px;
+	
+}
+.logo-block {
+	float: left;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: 'Dancing Script', cursive;
+}
+.menu-block {
+	float: right;
+}
+.header-nav__links {
+	display: inline-block;	
+	position: relative;
+	padding: 20px 15px;
+	color: white;
+	font-size: 22px;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+.header-nav__links:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.about-me {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: #FFF;
+}
+.about-me__logo  {
+	width: 250px;
+	height: 200px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+	margin: 0 auto;
+	
+}
+.about-me__logo  img {
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	
+}
+.about-me__text {
+	display: block;
+	font-size: 20px;
+	margin-top: 160px;
+	color: black;
+	padding: 0 25px;
+	font-style: italic;
+	font-weight: lighter;
+}
+.about-me__text span {
+	display: block;
+    text-align: right;
+    font-weight: 500;
+    font-style: italic;
+}
+.myWorks {
+	text-align: center;
+	background: #FFF;
+}
+.myWorks__title {
+  margin: 0;
+}
+.slider-item  {
+   text-align: center;
+	width: 320px;
+	height: 100%;
+	margin: 0 auto;
+}
+.page-form-block {
+	margin: 0 auto;
+}
+.form-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contacts__form {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.contacts__form p {
+	margin: 0;
+	padding: 0;
+}
+.contacts__title-text {
+	display: block;
+	font-size: 0.9em;
+	font-weight: 300;
+	max-width: 620px;
+	margin-bottom: 30px;
+}
+.contacts-block__input,
+.contacts-block__textarea {
+	display: block;
+	width: 450px;
+	margin-bottom: 22px;
+    padding: 12px;
+	padding-left: 33px;
+	background: white;
+	color: #202020;
+	border: none;
+	outline: none;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+.contacts-block__textarea {
+	float: right;
+}
+
+.contacts-block__btn {
+	margin: 0;
+	padding: 10px 14px;
+	background: white;
+	color: #202020;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-weight: 500;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	text-align: left;
+	float: left;
+  }
+.input-file {
+	background: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+    color: #202020;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.page-form__title {
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	margin-top: 0;
+}
+.portfolio {
+	
+}
+.portfolio__block {
+	padding: 40px 0;
+	background: #FFF;
+	text-align: center;
+}
+.portfolio__items {
+	display: inline-block;
+	width:300px;
+	height: 200px;
+	background: #202020;
+}
+.portfolio__title {
+	font-size: 26px;
+	font-style: italic;
+	margin-top: 0;
+}
+.footer__block {
+	color: white;
+	background: #202020;
+}
+.contact__block  {
+	padding: 10px;
+	float: right;
+}
+.contact-block__text {
+	padding: 0;
+	margin: 0;
+}
+.contact-block__title {
+	margin: 0;
+}
+.footer__block .logo-block {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.bar-btn {
+	display: none;
+}
+@media (max-width: 992px) {
+	.contacts-block__input,
+	.contacts-block__textarea  {
+		padding-right: 0;
+		margin-right: 0;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 320px;
+	}
+	.contacts-block__btn {
+		float: none;
+	}
+	.contacts-block__textarea {
+	float: none;
+}
+	
+}
+@media (max-width: 768px) {
+	.header-nav {
+		display: none;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 60px;
+		z-index: 20;
+		padding: 0 15px;
+	}
+	.header-nav__links {
+		display: block;
+		background: #202020;
+		text-align: center;
+		border-top: 0.5px solid white;
+		border-bottom: 0.5px solid white
+	
+	}
+	.bar-btn {
+		display: inline-block;
+		border:none;
+		background: none;
+		color: white;
+		vertical-align: middle;
+		font-size: 30px;
+        margin-top: 7px;
+	}
+	.bar-btn:hover {
+		outline: none;
+		opacity: 0.8;
+	}
+	.contact__block {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.footer__block .logo-block {
+		float: none;
+		display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	
+}
+}
