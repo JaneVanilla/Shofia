@@ -171,6 +171,10 @@ img {
 	width:300px;
 	height: 200px;
 	background: #202020;
+	text-align: center;
+}
+portfolio__items1 {
+	background: #c0301c;
 }
 .portfolio__title {
 	font-size: 26px;
