@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>humburger_2</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -63,9 +63,18 @@
                    <h2 class="portfolio__title">
                      Мои работы
                  </h2>
-                   <div class="portfolio__items portfolio__items1"> 
-                    StartUp
-                    <a href="https://janevanilla.github.io/startUp/"></a>     
+                 <ul class="portfolio-list">
+                   <li class="portfolio-items"><a href="https://janevanilla.github.io/startUp/" target="_blank" class="portfolio-link">№1</a></li>
+                   <li class="portfolio-items"><a href="#" target="_blank" class="portfolio-link">№2</a></li>
+                   <li class="portfolio-items"><a href="#" target="_blank" class="portfolio-link">№3</a></li>
+                   <li class="portfolio-items"><a href="#" target="_blank" class="portfolio-link">№4</a></li>
+                   <li class="portfolio-items"><a href="#" target="_blank" class="portfolio-link">№5</a></li>
+                   <li class="portfolio-items"><a href="#" target="_blank" class="portfolio-link">№6</a></li>
+                 </ul>
+                  <!--
+                    <a class="portfolio__items" href="https://janevanilla.github.io/startUp/" target="_blank">№1</a>     
+                   <div class="portfolio__items"> 
+                     <a href="https://janevanilla.github.io/startUp/"></a>
                    </div>
                    <div class="portfolio__items">    
                    </div>
@@ -83,6 +92,7 @@
                    </div>
                    <div class="portfolio__items">    
                    </div>
+                   -->
                  </div>
               </div>
            </div>
@@ -97,7 +107,7 @@
                         Давайте сотрудничать вместе
                     </h2>
                     <div class="form-block">
-                          <form action="post" class="contacts__form">  
+                          <form id="form-container" action="post" class="contacts__form">  
                             <p class=" col-xs-12 col-md-6 ">
                                <input class="contacts-block__input" type="text" name="name" id="" placeholder="Ваше имя">
                                <input class="contacts-block__input" type="text" name="name" id="" placeholder=" Email ">
