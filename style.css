@@ -177,8 +177,9 @@ img {
 	display: inline-block;
 	font-size: 20px;
     width:300px;
+    height: auto;
     background: #202020;
-    padding: 90px 30px;
+    padding: 70px 30px;
     margin-bottom: 20px;
     font-size: 45px;
 	font-family: 'Dancing Script', cursive;
@@ -189,6 +190,16 @@ img {
 }
 .portfolio-link:hover {
 	color: white;
+}
+.link-text {
+	display: inline-block;
+	font-size: 20px;
+}
+.portfolio-items:nth-child(3) {
+	
+}
+.portfolio-link--3 {
+	margin-top: -5px;
 }
 /*
 .portfolio__items {
