@@ -201,18 +201,7 @@ img {
 .portfolio-link--3 {
 	margin-top: -5px;
 }
-/*
-.portfolio__items {
-	display: inline-block;
 
-	background: #202020;
-	text-align: center;
-}
-.portfolio__items a {
-	
-	background: lightpink;
-}
-*/
 .portfolio__title {
 	font-size: 26px;
 	font-style: italic;
